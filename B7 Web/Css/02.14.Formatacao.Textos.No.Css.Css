@@ -1,0 +1,29 @@
+/*Texto Para Programadores*/
+* {
+   box-sizing: border-box;
+  }
+body {
+      margin: 50px;
+      font: 18px;
+     }
+p {
+   color: #020257;
+   font-size: 20px;
+   font-weight: bold;
+   font-family: Arial, Helvetica, sans-serif;
+   text-align: center;
+   text-transform: uppercase;
+   letter-spacing: 6px;
+   word-spacing: 8px;
+   /*Line Height define a altura da linha. Perfeito para centralizar o texto dentro de uma div*/
+   line-height: 40px;
+   /*Text Shadow, Nos valores 0px 3px 3px, O primeiro move a sombra para a direita, para baixo, e a densidade
+   da sombra respectivamente*/
+   text-shadow: #8b8a8a 0px 3px 3px;
+  }
+a {
+   text-decoration: underline;
+  }
+a:hover {
+         color: #d2691e;
+        }

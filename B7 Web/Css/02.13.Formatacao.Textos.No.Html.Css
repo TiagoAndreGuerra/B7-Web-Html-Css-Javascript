@@ -1,0 +1,8 @@
+/*Texto Para Programadores*/
+* {
+   box-sizing: border-box;
+  }
+body {
+      margin: 50px;
+      font-size: 20px;
+     }

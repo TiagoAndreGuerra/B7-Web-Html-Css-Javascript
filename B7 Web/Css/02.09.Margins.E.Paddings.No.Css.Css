@@ -1,0 +1,19 @@
+/*Texto Para Programadores*/
+body {
+      margin: 0px;
+     }
+.exemplo {
+          border: 1px solid #008000;
+          padding: 10px;
+          margin: 10px;
+         }
+.texto {
+        border: 1px solid #008000;
+        padding: 10px 30px 20px 60px;
+       }
+.margem {
+         border: 1px solid #008000;
+         margin: 100px 30px 20px 60px;
+        }
+/* Padding é o espaçamento dentro da div, da borda para dentro*/
+/* Marging é o espaçamento fora da div, da borda para fora*/

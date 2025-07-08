@@ -1,0 +1,14 @@
+/*Texto Para Programadores*/
+* {
+   box-sizing: border-box;
+  }
+body {
+      margin: 40px;
+      border: 0px;
+      font-family: "Press Start 2P", Arial, Helvetica;
+      font-weight: 400;
+      font-style: normal;
+      font-size: 30px;
+      color: #cf1111;
+      background-color: #556b2f;
+     }

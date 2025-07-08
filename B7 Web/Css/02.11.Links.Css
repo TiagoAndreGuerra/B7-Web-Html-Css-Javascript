@@ -1,0 +1,25 @@
+/*Texto Para Programadores*/
+* {
+   box-sizing: border-box;
+  }
+body {
+      margin: 0px;
+     }
+.exemplo {
+          color:#f5f5f5 ;
+          background-color: #526400;
+          font-size: 60px;
+          width: 80%;
+          height: 100px;
+         }
+.link {
+       color: #ffffff;
+       font-size: 30px;
+       background-color: #690505;
+      }
+.link:hover {
+             color: #0000ff;
+            }
+.link:visited {
+               color: #ff1493;
+              }

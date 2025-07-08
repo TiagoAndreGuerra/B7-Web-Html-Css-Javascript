@@ -1,0 +1,19 @@
+/* Texto Para Programadores */
+h3 {
+    color: #d40ab3;
+    font-size: 40px;
+   }
+a {
+   color: #008000;
+  }
+li {
+    font-weight: bold;
+    color: #8a2be2;
+   }
+h2 {
+    font-weight: bold;
+    font-size: 60px;
+   } 
+p {
+   color: #daa520;
+  }
