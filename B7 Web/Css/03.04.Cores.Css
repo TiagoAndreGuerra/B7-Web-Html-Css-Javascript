@@ -1,0 +1,47 @@
+/*Texto Para Programadores*/
+* {
+   box-sizing: border-box;
+  }
+body {
+      margin: 20px;
+      border: 0px;
+      color: white;
+      background-color: darkslateblue;
+      font-size: 26px;
+     }
+.corum {
+        width: 400px;
+        height: 200px;
+        background-color: #8a2be2;
+        color: #ffebcd;
+       }
+.cordois {
+          width: 400px;
+          height: 200px;
+          background-color: rgb(8, 128, 44);
+          color: #ffebcd;
+         }
+.cortres {
+          width: 400px;
+          height: 200px;
+          background-color: hsl(27, 77%, 53%);
+          color: #ffebcd;
+         }
+.corquatro {
+            width: 400px;
+            height: 200px;
+            background-color: lab(51.74% 73.98 -10.8);
+            color: #ffebcd;
+           }
+.corcinco {
+           width: 400px;
+           height: 200px;
+           background-color: oklch(58.097% 0.23272 28.694);
+           color: #ffebcd;
+          }
+.corseis {
+          width: 400px;
+          height: 200px;
+          background-color: oklab(66.081% -0.15035 0.13424);
+          color: #ffebcd;
+         }

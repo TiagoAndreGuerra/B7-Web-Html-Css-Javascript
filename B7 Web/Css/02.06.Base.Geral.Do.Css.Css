@@ -1,0 +1,34 @@
+/*Texto Para Programadores*/
+h1 {
+    color: #ff0000;
+   }
+/* # É utilizado para referenciar um id unico, so serve para um elemento */
+#titulo {
+         color: #7fff00;
+        }
+/* . É utilizado para referenciar uma class, que pode ser usada para varios elementos, muito utilizada */
+.texto {
+         color: #ff7300;
+        }
+/* É possivel referenciar tanto a id como a class em conjunto, para atribuir as alterações via css para ambos
+#titulo,
+.texto {
+        color: #8b0000;
+        font-size: 40px;
+       }  
+*/
+ol li {
+       color: #fc1393;
+      } 
+/*
+ol, li {
+       color: #fc1393;
+      } 
+*/
+/*
+  # Id
+  . Class
+  Elemento
+  Elemento,Outro Elemento
+  Elemento Outro Elemento 
+*/

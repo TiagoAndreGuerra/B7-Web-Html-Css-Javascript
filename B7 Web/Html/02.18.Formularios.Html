@@ -1,0 +1,127 @@
+<!--Texto Para Programadores-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <title>Formularios</title>
+        <link rel="stylesheet" href="C:\Programação\B7 Web\Css\02.18.Formularios.Css"/>
+    </head>
+    <body>
+        <h1>Formularios</h1>
+        <br>
+        <h2>Area de Cadastro</h2>
+        <!-- O atributo action indica para onde as informações coletadas pelo formulario serão enviadas-->
+        <!-- O atributo method post não informa as informações na URL da pagina, ideal para formularios de cadastro e log in-->
+        <!-- O atributo method get informa as informações na URL da pagina, ideal para paginas que não necessitam sigilo de dados-->
+        <form action="C:\Programação\B7 Web\Html\02.12.Login.Html" method="post">
+            <input type="text" name="usuario" value="Usuário">
+            <br>
+            <input type="password" name="senha" value="Senha">
+            <br>
+            <input type="checkbox">
+            <br>
+            <input type="radio" name="sexo">
+            <input type="radio" name="sexo">
+            <br>
+            <input type="submit" value="Fazer Cadastro">
+            <br>
+            <input type="email">
+            <br>
+            <input type="color">
+            <br>
+            <input type="date">
+            <br>
+            <input type="datetime-local">
+            <br>
+            <input type="month">
+            <br>
+            <input type="number">
+            <br>
+            <input type="range">
+            <br>
+            <input type="search">
+            <br>
+            <input type="tel">
+            <br>
+            <input type="url">
+            <br>
+            <input type="week">
+            <br>
+        </form>
+        <br>
+        <h2>Area de Login</h2>
+        <form action="C:\Programação\B7 Web\Html\02.12.Login.Html" method="post">
+            <select name="ordem" size="2" multiple>
+                <!-- O atributo selected seleciona uma das tags de option como sendo a tag que ira aparecer em primeiro-->
+                <option value=""></option>
+                <option value="bestseller">Mais vendidos</option>
+                <option value="recent">Recentes</option>
+                <option value="favorites" selected>Favoritos</option>
+                <option value="newproduct">Novidades</option>
+            </select>
+            <br>
+            <textarea name="descricao" id=""></textarea>
+            <br>
+            <!-- A tag button, caso esteja dentro da tag form com o atributo action, cumpre a mesma função de submit-->
+            <button>Texto Do Botão</button>
+            <br>
+            <!-- A tag label permite que você clique sobre um texto ou figura e seja direcionado a caixa de texto, por exemplo-->
+            <label for="nome">Nome Completo:</label>
+            <br>
+            <input type="text" name="nome" id="nome">
+            <br>
+            <label for="box">Aceito Os Termos E Condições</label>
+            <br>
+            <input type="checkbox" name="check" id="box">
+            <br>
+            <!-- Procurar sempre usar o id na tag input, para que o mesmo seja referenciado na tag label-->
+            <label for="aceito">
+                Aceito As Regras Estabelecidas Em Contrato
+                <br>
+                <input type="checkbox" name="box" id="aceito">
+            </label>
+        </form>
+        <br>
+        <h2>Formatando Formularios No Css</h2>
+        <form action="C:\Programação\B7 Web\Html\02.12.Login.Html" method="post">
+            <label for="1">
+                Nome Completo:
+                <br>
+                <input type="text" name="nome" id="1" class="formato">
+            </label>
+            <br>
+            <label for="2">
+                Senha:
+                <br>
+                <input type="text" name="senha" id="2" class="formato">
+            </label>
+            <br>
+            <label for="3">
+                Descrição:
+                <br>
+                <textarea name="descricao" id="3" class="formato"></textarea>
+            </label>
+            <br>
+            <label for="4">
+                Aceito Os Termos De Serviço E <a href="" target="_blank" class="termoslink">Termos De Uso</a> Aqui Descritos.
+                <br>
+                <input type="checkbox" name="servico" id="4">
+            </label>
+            <br>
+            <label for="5">
+                Categorias:
+                <br>
+                <select name="categoria" id="5" class="formato">
+                    <option value="1">Categoria 1</option>
+                    <option value="2">Categoria 2</option>
+                    <option value="3">Categoria 3</option>
+                    <option value="4">Categoria 4</option>
+                    <option value="5">Categoria 5</option>
+                    <option value="6">Categoria 6</option>
+                </select>
+            </label>
+            <br>
+            <input type="submit" value="Fazer Cadastro" class="botao">
+        </form>
+    </body>
+</html>

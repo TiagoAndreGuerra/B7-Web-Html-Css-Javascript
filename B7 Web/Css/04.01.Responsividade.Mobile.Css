@@ -1,0 +1,12 @@
+/*Texto Para Programadores*/
+* {
+   box-sizing: border-box;
+  }
+body {
+      margin: 20px;
+      border: 0px;
+     }
+img {
+     width: auto;
+     height: auto;
+    }

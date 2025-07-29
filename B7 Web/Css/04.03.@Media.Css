@@ -1,0 +1,85 @@
+/*Texto Para Programadores*/
+* {
+   box-sizing: border-box;
+  }
+body {
+      display: flex;
+      margin: 20px;
+      border: 0px;
+      background-color: #800080;
+      font-size: 70px;
+     }
+table {
+       border: 1px solid #000000;
+       width: 800px;
+       height: 200px;
+      }
+td {
+    border: 1px solid #000000;
+   }
+tr {
+    background-color: #dc143c;
+   }
+div {
+     border: 2px solid #000000;
+     width: 100px;
+     height: 100px;
+     font-size: 12px;
+     background-color: #008b8b;
+    }
+@media (min-width: 1000px) {
+                            body {
+                                 background-color: #05941d;
+                                 font-size: 70px;
+                                }
+                           }
+@media (min-width: 700px) and (max-width: 1000px) {
+                                                  body {
+                                                        background-color: #0447d6;
+                                                        font-size: 40px;
+                                                       }
+                                                 }
+/*De 700px a 600px nenhum parametro em @media esta definido, logo, predomina os parametros do body*/                                                 
+@media (max-width: 600px) {
+                           body {
+                                 background-color: #940505;
+                                }
+                           h1 {
+                               font-size: 14px;
+                              }
+                          }
+@media only print {
+                   h1 {
+                       font-size: 80px;
+                       font-weight: normal;
+                       font-style: italic;
+                      }
+                   h2 {
+                       display: none;
+                      }
+                   td {
+                       border: 0px;
+                      }
+                  }
+/*A transição de portrait para landscape dependera do tamanho da tela. Usando o inspecionar, se a largura for maior 
+que a altura, automaticamente o formato sera o landscape, e vice versa*/
+@media (orientation: landscape) {
+                                 body {
+                                       flex-direction: row;
+                                      }
+                                }
+@media (orientation: portrait) {
+                                 body {
+                                       flex-direction: column;
+                                      }
+                                }
+@media (aspect-ratio: 1/1) {
+                            body {
+                                  background-color: #bd0000;
+                                 }
+                           }
+@media (min-aspect-ratio: 2/1) {
+                                body {
+                                      background-color: #bd007e;
+                                     }
+                               }

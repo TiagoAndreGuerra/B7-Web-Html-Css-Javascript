@@ -1,0 +1,22 @@
+/*Texto Para Programadores*/
+* {
+   box-sizing: border-box;
+  }
+body {
+      margin: 20px;
+      border: 0px;
+     }
+.herdar {
+         color: #ffffff;
+         background-color: #a52a2a;
+         font-size: 16px;
+        }
+h1 {
+    font-size: 30px;
+    color: #8b008b;
+   }
+/*Usando o inherit, o inherit esmpre ira herdar a configuração da tag "pai", levando em conta cascata e especificidade*/
+.herdar h1 {
+            font-size: inherit;
+            color: inherit;
+           }

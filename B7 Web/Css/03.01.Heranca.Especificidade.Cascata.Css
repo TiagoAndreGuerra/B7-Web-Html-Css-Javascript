@@ -1,0 +1,48 @@
+/*Texto Para Programadores*/
+* {
+   box-sizing: border-box;
+  }
+body {
+      margin: 20px;
+      border: 0px;
+      color: #006400;
+     }
+.container {
+            width: 100%;
+            height: 200px;
+            background-color: #cccccc;
+            padding: 10px;
+            color: #a52a2a;
+            font-size: 26px;
+            border: 2px solid #808080;
+           }
+/*Herança - Perceba que a tag strong herdou a cor #a52a2a da div class container. Algumas propriedades são herdadas. 
+Você pode sobreescrever isso dando mais especificidade aos elementos que vem abaixo*/
+.container strong {
+                   border: 1px solid #000000;
+                   padding: 1px;
+                  }
+/*Especificidade - A propriedade abaixo div de background-color: #4b014b não foi aplicada porque elementos anteriores 
+são mais especificos. Classe e Id são mais especificos que apenas uma div. Inserida uma div sem especificidade no
+Html, aí sim, as configurações se aplicam. */
+div {
+     background-color: #4b014b;
+     color: #f0ffff;
+     width: 100%;
+     height: 200px;
+     font-size: 26px;
+     border: 2px solid #808080;
+     padding: 10px;
+    }
+/*Cascata - A prioridade como as informações são lidas. Geralmente, a ultima informação inserida no Css, desde que
+tenham a mesma especificidade, é a que ira se sobrepor, como no exemplo abaixo. A div laranja se sobrepos a div
+roxa por estar mais abaixo no Css*/
+div {
+     background-color: #c7530f;
+     color: #f0ffff;
+     width: 100%;
+     height: 200px;
+     font-size: 26px;
+     border: 2px solid #808080;
+     padding: 10px;
+    }

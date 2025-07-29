@@ -1,0 +1,27 @@
+/*Texto Para Programadores*/
+* {
+   box-sizing: border-box;
+  }
+body {
+      margin: 20px;
+      border: 0px;
+     }
+table {
+       width: 600px;
+      }
+th,td {
+       padding: 20px;
+       text-align: left;
+      }
+thead {
+       background-color: #006400;
+      }
+tbody {
+       background-color: #b22222;
+      }
+tbody td:hover {
+                background-color: #ff0000;
+               }
+tbody tr:nth-child(even) {
+                          background-color: #e97474;
+                         }

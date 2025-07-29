@@ -1,0 +1,89 @@
+<!--Texto Para Programadores-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <title>Fieldset Legend Validação Input</title>
+        <link rel="stylesheet" href="C:\Programação\B7 Web\Css\02.19.Fieldset.Legend.Validacao.Input.Css"/>
+    </head>
+    <body>
+        <h1>Fieldset Legend Validacão Input</h1>
+        <br>
+        <!-- O atributo enctype é muito importante, para que o servidor aceite e reconheça arquivos enviados via formulario-->
+        <form action="" method="post" enctype="multipart/form-data">
+            <!-- A tag input com atributo do tipo hidden serve para coletar informações do usuario sem que o mesmo 
+            precise digitar ou informar a mesma. Por exemplo, o endereço de IP, para saber de que pais o usuario 
+            preenche os dados -->
+            <input type="hidden" name="pais" value="BR">
+            <fieldset>
+            <legend>Dados Pessoais</legend>
+                <label for="nome">
+                    Nome
+                    <br>
+                    <input type="text" name="nome" id="nome" required minlength="2" maxlength="40">
+                </label>
+                <br>
+                <label for="sobrenome">
+                    Sobrenome
+                    <br>
+                    <input type="text" name="surname" id="sobrenome" minlength="2" maxlength="40">
+                </label>
+                <br>
+                <label for="foto">
+                    Foto
+                    <br>
+                    <!-- O atributo accept define o tipo de arquivo que pode ser aceito pela tag input atributo file, 
+                    no caso, image aceita somente fotos -->
+                    <input type="file" name="photo" id="foto" accept="image/*">
+                </label>
+            </fieldset>
+            <br>
+            <fieldset>
+            <legend>Dados Profissionais</legend>
+                <label for="empresa">
+                    Nome Da Empresa
+                    <br>
+                    <input type="text" name="nomeempresa" id="empresa" required>
+                </label>
+                <br>
+                <label for="cargo">
+                    Cargo Na Empresa
+                    <br>
+                    <input type="text" name="cargoempresa" id="cargo" required>
+                </label>
+            </fieldset>
+            <br>
+            <fieldset>
+            <legend>Outras Informaçõoes</legend>
+                <label for="age">
+                    Idade
+                    <br>
+                    <input type="number" name="idade" id="age" max="120" min="18" required>
+                </label>
+                <br>
+                <label for="birthdate">
+                    Data Nascimento
+                    <br>
+                    <input type="date" name="nascimento" id="birthdate" min="1988-01-01" max="2025-11-11" required>
+                </label>
+                <br>
+                <label for="mail">
+                    E-Mail
+                    <br>
+                    <!-- O atributo pattern define aqui, no caso, certos parametros necessarios para o campo de e-mail,
+                    como a necessidade de @ por exemplo -->
+                    <input type="text" name="email" id="mail" pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$" title="Endereço De E-Mail">
+                </label>
+                <br>
+                <label for="password">
+                    Password
+                    <br>
+                    <input type="text" name="senha" id="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="A Senha Precisa Ter No Minimo 8 Caracteres e Caracteres Especiais">
+                </label>
+            </fieldset>
+            <br>
+            <input type="submit" value="Cadastrar">
+            <br>
+        </form>
+    </body>
+</html>

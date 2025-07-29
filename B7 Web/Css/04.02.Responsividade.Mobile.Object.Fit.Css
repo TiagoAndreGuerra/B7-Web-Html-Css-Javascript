@@ -1,0 +1,29 @@
+/*Texto Para Programadores*/
+* {
+   box-sizing: border-box;
+  }
+body {
+      margin: 20px;
+      border: 0px;
+     }
+#um {
+     width: 400px;
+     height: 400px;
+     object-fit: fill;
+    }
+#do {
+     width: 400px;
+     height: 400px;
+     object-fit: contain;
+    }
+/*Cover é a mais utilizada, pois reduz e corta dentro do espaço definido, não distrocendo a imagem*/
+#tr {
+     width: 400px;
+     height: 400px;
+     object-fit: cover;
+    }
+#qu {
+     width: 400px;
+     height: 400px;
+     object-fit: none;
+    }

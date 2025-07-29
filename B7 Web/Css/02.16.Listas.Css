@@ -1,0 +1,26 @@
+/*Texto Para Programadores*/
+* {
+   box-sizing: border-box;
+  }
+body {
+      margin: 20px;
+      border: 0px;
+     }
+#lista01 {
+          list-style: upper-roman;
+         }
+#lista02 {
+          list-style: upper-alpha ;
+         }
+#lista03 {
+          list-style: decimal-leading-zero;
+         }
+.lista04 {
+          list-style-type: square;
+         }
+#lista05 {
+          list-style-type: circle ;
+         }
+#lista06 {
+          list-style-type: none;
+         }

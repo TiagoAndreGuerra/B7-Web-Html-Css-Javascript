@@ -1,0 +1,101 @@
+/*Texto Para Programadores*/
+* {
+   box-sizing: border-box;
+  }
+html {
+      font-size: 20px;
+     }
+body {
+      margin: 20px;
+      border: 0px;
+      font-size: 20px;
+     }
+/*Unidades De Medida Absoluta*/
+.container {
+            width: 400px;
+            height: 400px;
+            background-color: #ff7f50;
+            color: #ffffff;
+            font-size: 28px;
+            padding: 10px;
+           }
+.caixa {
+        width: 400pt;
+        height: 400pt;
+        background-color: #50ff8a;
+        color: #ffffff;
+        font-size: 28px;
+        padding: 10px;
+       }
+.box {
+      width: 4in;
+      height: 4in;
+      background-color: #3a27e7;
+      color: #ffffff;
+      font-size: 28px;
+      padding: 10px;
+     }
+.quadro {
+         width: 18cm;
+         height: 18cm;
+         background-color: #e91b1b;
+         color: #ffffff;
+         font-size: 28px;
+         padding: 10px;
+        }
+/*Unidades De Medida Relativa*/
+.quadra {
+         font-size: 40px;
+        }
+/*Unidade De Medida "em" é baseada no font-size, nesse caso, o font-size dentro da class quadra, no item superior*/
+.quadrainterna {
+                background-color: #b8860b;
+                width: 10em;
+                height: 10em;
+                padding: 10px;
+               }
+.quadri {
+         font-size: 40px;
+        }
+/*Unidade De Medida "rem" é baseada no font-size raiz, nesse caso, o font-size do html. Se você definir o tamanho da 
+fonte do html como 20px, então 1rem será igual a 20px. */
+.quadriinterno {
+                background-color: #aa0974;
+                width: 60rem;
+                height: 60rem;
+                padding: 10px;
+               }
+/*Unidade De Medida "%". Usada principalmente para estruturas, não para fontes */
+.externo {
+          background-color: #790303 ;
+          width: 50%;
+          height: 400px;
+         }
+.interno {
+          background-color: #ff0000;
+          color: white;
+          width: 50%;
+          height: 50%;
+         }
+/* Existem outras Unidades De Medida, como a "ex" e "ch". São raramente usadas devido ao fato que seu tamanho é atrelado ao
+tamanho da fonte de texto. Alterando a fonte de texto, seu site pode acabar ficando desconfigurado. Nem todas as fontes
+são monospace. Em algumas, por exemplo, o tamanho de "i" é menor que o tamanho de "w". */
+.chexterno {
+            background-color: #790303 ;
+            width: 300px;
+           }
+.chinterno {
+            background-color: #ff0000;
+            color: white;
+            width: 15ch;
+           }
+/*Unidade De Medida "vh,vw". Usada principalmente para posicionar estruturas gerais do site como menu, modal, etc. */
+.wpexterno {
+            background-color: #1d0379 ;
+            height: 100vh;
+            width: 80vw;
+           }
+.wpinterno {
+            background-color: #4ae7fc;
+            color: white;
+           }

@@ -1,0 +1,35 @@
+/*Texto Para Programadores*/
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+  }
+:root{
+      --bg-color: #2603a7;
+      --bg-second: #7a7a7a;
+      --font-color: #ffffff;
+      --font-color2: #005704;
+      --font-size-big: 26px;
+      --font-size-small: 14px;
+     }
+body {
+      margin: 20px;
+      border: 0px;
+      background-color: var(--bg-second);
+      font-size: var(--font-size-big);
+     }
+h1 {
+    color: var(--font-color2);
+   }
+footer {
+        height: 100px;
+        background-color: #5f9ea0;
+       }
+nav {
+     height: 50px;
+     background-color: #ac2e00;
+    }  
+header {
+        height: 200px;
+        background-color: #63025e;
+       }   
