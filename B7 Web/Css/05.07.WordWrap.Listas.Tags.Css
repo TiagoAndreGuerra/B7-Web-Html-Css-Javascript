@@ -15,35 +15,21 @@
 body {
       margin: 20px;
       border: 0px;
-      background-color: #8b9300;
+      background-color: #ffffff;
       font-size: var(--font-size-big);
      }
 h1 {
-    color: var(--font-color);
-    text-shadow: 6px 6px 2px #000000;
+    color: var(--font-color2);
    }
-.sombras {
-          background-color: #0e1bd1;
-          width: 300px;
-          height: 300px;
-          margin-top: 100px;
-          margin-left: 100px;
-          box-shadow: 20px 18px 10px #000000;
-          transition: all 4s linear;
-         }
-.sombras:hover {
-                width:800px;
-                background-color: #d904c7;
-               }
-.shadows {
-          background-color: #472aa5;
-          width: 300px;
-          height: 300px;
-          margin-top: 100px;
-          margin-left: 100px;
-          box-shadow: -20px -18px 30px #000000;
-         }
-.shadows:hover {
-                width: 600px; 
-                background-color: #32a52a;
-               }
+/*Utilizei uma imagem abaixo para ilustrar como ficariam as definições de Meta Tag que estão inseridas no head do Html*/
+img {
+     width: 300px;
+     height: 300px;
+     object-fit: cover;
+    }
+.caixa {
+        width: 300px;
+        height: 300px;
+        border: 1px solid #000000;
+        word-wrap: break-word;
+       }
