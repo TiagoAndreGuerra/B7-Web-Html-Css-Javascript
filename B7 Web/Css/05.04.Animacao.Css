@@ -1,0 +1,40 @@
+/*Texto Para Programadores*/
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+  }
+:root{
+      --bg-color: #2603a7;
+      --bg-second: #7a7a7a;
+      --font-color: #ffffff;
+      --font-color2: #005704;
+      --font-size-big: 26px;
+      --font-size-small: 14px;
+     }
+@keyframes animacao {
+                     0% {background-color:#ffc0cb; top: 200px; left: 200px;}
+                     25% {background-color:#ffff00; top: 400px; left: 300px;}
+                     50% {background-color:#000000; top: 600px; left: 400px;}
+                     75% {background-color:#0000ff; top: 800px; left: 500px;}
+                     100% {background-color:#ffc0cb; top: 200px; left: 200px;}
+                    }
+body {
+      margin: 20px;
+      border: 0px;
+      background-color: #ad3002;
+      font-size: var(--font-size-big);
+     }
+.animacao {
+           width: 200px;
+           height: 200px;
+           background-color: #ffc0cb;
+           position: absolute;
+           animation-name: animacao;
+           animation-duration: 8s;
+           animation-delay: 4s;
+           animation-iteration-count: infinite;
+          }
+h1 {
+    color: var(--font-color);
+   }
