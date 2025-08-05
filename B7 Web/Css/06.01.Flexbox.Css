@@ -67,5 +67,12 @@ body {
           margin: 10px;
           padding: 10px;
           font-size: 18px;
-          flex: 2;
+          flex: 1;
+         }
+.square4 {
+          background-color: #7f0404;
+          margin: 10px;
+          padding: 10px;
+          font-size: 18px;
+          flex: 3;
          }
