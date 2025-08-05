@@ -1,0 +1,19 @@
+/*Texto Para Programadores*/
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+  }
+:root {
+       --font: 'Inter', sans-serif;
+       --color-bg: #ffffff;
+       --color-text: #1a1a1a;
+       --color-accent: #0077ff;   
+      }
+body {
+      font-family: var(--font);
+      background-color: var(--color-bg);
+      color: var(--color-text);
+      line-height: 1.6;
+      padding: 1rem;
+     }
