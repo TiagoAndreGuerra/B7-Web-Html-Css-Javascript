@@ -17,3 +17,55 @@ body {
       line-height: 1.6;
       padding: 1rem;
      }
+.box {
+      background-color: #808080;
+      display: flex;
+      flex-direction: column;
+      margin: 8px;
+     }
+.caixa {
+        background-color: #4a3d92;
+        display: flex;
+        flex-direction: row;
+        margin: 8px;
+       }
+.quadro {
+         background-color: #8e950f;
+         display: flex;
+         flex-direction: row;
+         margin: 8px; 
+        }
+.retangulo {
+            background-color: #8e3d07;
+            display: flex;
+            flex-direction: row;
+            margin: 8px; 
+           }
+.box div,.caixa div,.quadro div {
+                                 background-color: #7f0404;
+                                 margin: 10px;
+                                 padding: 10px;
+                                 font-size: 18px;
+                                 flex: 1;
+                                }
+.square1 {
+          background-color: #7f0404;
+          margin: 10px;
+          padding: 10px;
+          font-size: 18px;
+          flex: 1;
+         }
+.square2 {
+          background-color: #7f0404;
+          margin: 10px;
+          padding: 10px;
+          font-size: 18px;
+          flex: 1;
+         }
+.square3 {
+          background-color: #7f0404;
+          margin: 10px;
+          padding: 10px;
+          font-size: 18px;
+          flex: 2;
+         }
