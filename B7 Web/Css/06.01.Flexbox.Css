@@ -76,3 +76,52 @@ body {
           font-size: 18px;
           flex: 3;
          }
+.alinhamento {
+              display: flex;
+              flex-direction: row-reverse;
+              background-color: #b8860b;
+              margin: 8px;
+              /*Você pode usar o flex-wrap:wrap caso deseje que todos os elementos caibam na tela, independente de sua largura com 
+              o width*/
+             }
+.alinhamento div {
+                  background-color: #7f0404;
+                  margin: 10px;
+                  padding: 10px;
+                  font-size: 18px;
+                  /*Ao inves de usar o flex 1, você pode definir a largura com o width, mas se o valor for muito alto, de forma que os
+                  elementos não caibam na tela, eles serão divididos igualmente. */
+                  width: 200px;
+                 }
+.conteudo {
+           display: flex;
+           justify-content: space-evenly;
+           align-items: center;
+           flex-direction: row-reverse;
+           background-color: #077aab;
+           margin: 8px;
+           height: 300px;
+          }  
+.conteudo div {
+               background-color: #7f0404;
+               margin: 10px;
+               padding: 10px;
+               font-size: 18px;
+               width: 120px;
+              }
+.interior {
+           display: flex;
+           justify-content: center;
+           align-items: center;
+           flex-direction: column;
+           background-color: #007004;
+           margin: 8px;
+           height: 300px;
+          } 
+.interior div {
+               background-color: #a84c01;
+               margin: 10px;
+               padding: 10px;
+               font-size: 18px;
+               width: 120px;
+              } 
