@@ -125,3 +125,20 @@ body {
                font-size: 18px;
                width: 120px;
               } 
+.linha {
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-direction: row;
+        background-color: #6c2f61;
+        margin: 8px;
+        height: 500px;
+       }
+.linha div {
+            width: 100px;
+            height: 100px;
+            background-color: #7f0404;
+            margin: 10px;
+            padding: 10px;
+            font-size: 18px;
+           }
