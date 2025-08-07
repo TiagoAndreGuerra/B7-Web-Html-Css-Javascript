@@ -128,17 +128,33 @@ body {
 .linha {
         display: flex;
         justify-content: center;
-        align-items: flex-start;
+        align-items: center;
         flex-direction: row;
-        background-color: #6c2f61;
+        background-color: #a15192;
         margin: 8px;
         height: 500px;
        }
 .linha div {
             width: 100px;
             height: 100px;
-            background-color: #7f0404;
+            background-color: #b55924;
             margin: 10px;
             padding: 10px;
             font-size: 18px;
            }
+.dez {
+      align-self: flex-start ;
+     }
+.sete {
+       align-self: flex-end;
+      }
+.quatro {
+         /*Caso você não defina um order, por padrão, o valor dele é 0*/
+         order: 1;
+        }
+.dois {
+       order: 2;
+      }
+.quatorze {
+           order: -1;
+          }
