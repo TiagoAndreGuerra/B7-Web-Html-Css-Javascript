@@ -11,10 +11,8 @@
   --color-accent: #0077ff;
 }
 body {
-  font-family: var(--font);
   background-color: var(--color-bg);
   color: var(--color-text);
-  line-height: 1.6;
 }
 header {
   display: flex;
@@ -22,7 +20,6 @@ header {
   height: 120px;
 }
 .menu {
-       background-color: #752a72;
        display: flex;
        align-items: center;
       }
@@ -44,6 +41,7 @@ nav a {
 }
 nav a:hover {
   background-color: #39aae1;
+  border-radius: 10px;
   color: #ffffff;         
 }
 .container {
@@ -52,7 +50,6 @@ nav a:hover {
   justify-content: space-between;
 }
 .logo {
-  background-color: #014501;
   display: flex;
   align-items: center;
   }
@@ -69,9 +66,24 @@ nav a:hover {
 }
 .bannerhead {
  flex: 1;
- background-color: #b2af19;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+}
+.bannerhead h1 {
+  color: #ffffff;
+  font-size: 50px;
+  text-shadow: 0px 1px 0px #555555;
+  margin: 0px;
+  padding: 0px;
+}
+.bannerhead h2 {
+  color: #ffffff;
+  font-size: 19px;
+  text-shadow: 0px 1px 0px #555555;
+  margin: 0px;
+  padding: 0px;
 }
 .banneroption {
- background-color: #014501;
  height: 210px;
 }
