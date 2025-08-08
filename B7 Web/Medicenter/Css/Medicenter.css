@@ -48,7 +48,6 @@ nav a:hover {
 }
 .container {
   width:990px;
-  background-color: #730303;
   display:flex;
   justify-content: space-between;
 }
@@ -58,8 +57,21 @@ nav a:hover {
   align-items: center;
   }
 #woman {
+  display: flex;
+  justify-content: center;
   background-image:url(../Assets/Mulher.jpg);
   background-position: center;
   background-size: cover;
   height: 670px;
+}
+.coluna {
+  flex-direction: column;
+}
+.bannerhead {
+ flex: 1;
+ background-color: #b2af19;
+}
+.banneroption {
+ background-color: #014501;
+ height: 210px;
 }
