@@ -162,6 +162,9 @@ nav a:hover {
   flex-wrap: wrap;
   gap: 20px;          
 }
+#dois, #quatro {
+  margin-right: 20px;
+}
 .retangulo {
   background-color: #39aae1;
   width: calc(50% - 10px);
@@ -193,6 +196,13 @@ nav a:hover {
 #mid {
   border: none;
 }
+article {
+  flex: 1;
+  min-width: 300px;
+}
+article a {
+  text-decoration: none;
+}
 article .newsdata {
   display: flex;
 }
@@ -208,4 +218,22 @@ article .newscomment {
   background-color: #39aae1;
   font-size: 12px;
   padding: 10px;
+}
+article .newspic {
+  margin-top: 30px;
+}
+article .newspic img {
+  width: 100%;
+  height: auto;
+}
+article .newstitle {
+  margin-top: 25px ;
+  margin-bottom: 25px;
+  font-size: 22px;
+  color: #000000;
+}
+article .newsresume {
+  color: #2c2c2c;
+  font-size: 14px;
+  line-height: 20px;
 }
