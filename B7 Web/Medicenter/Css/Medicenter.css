@@ -270,3 +270,15 @@ footer {
 .flexcolumn {
   flex-direction: column;
 }
+footer .widgettitletext {
+  color: #ffffff;
+}
+.footercopy {
+  border-top: 2px solid#2c2c2c;
+  height: 40px;
+  line-height: 40px;
+  color: #5c5c5c;
+  font-size: 12px;
+  margin-top: 30px;
+  text-align: center;
+}
