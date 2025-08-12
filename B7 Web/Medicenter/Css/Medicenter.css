@@ -193,3 +193,19 @@ nav a:hover {
 #mid {
   border: none;
 }
+article .newsdata {
+  display: flex;
+}
+article .newsposted {
+  color: #ffffff;
+  background-color: #2b4c99;
+  font-size: 12px;
+  padding: 10px;
+  margin-right: 2px;
+}
+article .newscomment {
+  color: #ffffff;
+  background-color: #39aae1;
+  font-size: 12px;
+  padding: 10px;
+}
