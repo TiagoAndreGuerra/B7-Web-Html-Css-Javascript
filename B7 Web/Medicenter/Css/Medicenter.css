@@ -49,8 +49,8 @@ nav a:hover {
 .container {
   margin: 0px;
   width: 100%;
-  max-width:990px;
-  display:flex;
+  max-width: 990px;
+  display: flex;
   justify-content: space-between;
 }
 .logo {
@@ -334,11 +334,40 @@ footer .widgettitletext {
 }
 .ikonimg img {
   width: 38px;
-  height:38px;
+  height: 38px;
   margin: 0px;
   opacity: 0.1;
   margin-right: 4px;
 }
 #mail, #branco {
   color: #ffffff;
+}
+@media (max-width:600px) {
+ .bannerhead h1{
+  font-size: 55px;
+ }
+ .bannerhead h2{
+  font-size: 17px;
+ }
+}
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    padding: 0 10px;
+  }
+
+  .bannerhead h1 {
+    font-size: 40px;
+    max-width: 100%;
+  }
+
+  .bannerhead h2 {
+    font-size: 16px;
+    max-width: 100%;
+  }
+
+  .banneroption {
+    flex-direction: column;
+    height: auto;
+  }
 }
