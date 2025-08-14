@@ -343,14 +343,50 @@ footer .widgettitletext {
   color: #ffffff;
 }
 @media (max-width:600px) {
- .bannerhead h1{
+  .bannerhead {
+    padding: 40px;
+  }
+  .bannerhead h1{
   font-size: 55px;
  }
  .bannerhead h2{
   font-size: 17px;
  }
+ .banneroption {
+  height: auto;
+  flex-direction: column;
+ }
+ .container {
+  flex-direction: column;
+ }
+ #geral section {
+  padding: 10px;
+ }
+ #widgetresp {
+  margin-top: 160px;
+ }
+ .logo {
+  margin-top: 10px;
+ }
+ #dois, #quatro {
+  margin-right: 0px;
+  margin-bottom: 0px;
 }
-@media (max-width: 768px) {
+ #geral aside {
+  padding: 10px;
+ }
+}
+
+html, body {
+  overflow-x: hidden;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/*@media (max-width: 768px) {
   .container {
     flex-direction: column;
     padding: 0 10px;
