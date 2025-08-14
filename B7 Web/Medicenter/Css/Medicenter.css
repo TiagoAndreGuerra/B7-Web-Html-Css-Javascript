@@ -382,6 +382,9 @@ footer .widgettitletext {
   flex-direction: column;
   padding: 20px;
  }
+ .menu a {
+  padding: 13px;
+ }
 }
 
 html, body {
