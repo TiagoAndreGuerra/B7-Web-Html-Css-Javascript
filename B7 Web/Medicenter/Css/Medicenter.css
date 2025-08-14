@@ -392,25 +392,3 @@ img {
   max-width: 100%;
   height: auto;
 }
-
-/*@media (max-width: 768px) {
-  .container {
-    flex-direction: column;
-    padding: 0 10px;
-  }
-
-  .bannerhead h1 {
-    font-size: 40px;
-    max-width: 100%;
-  }
-
-  .bannerhead h2 {
-    font-size: 16px;
-    max-width: 100%;
-  }
-
-  .banneroption {
-    flex-direction: column;
-    height: auto;
-  }
-}
