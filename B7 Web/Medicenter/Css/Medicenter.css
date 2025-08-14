@@ -77,7 +77,7 @@ nav a:hover {
 .bannerhead h1 {
   color: #ffffff;
   font-size: 70px;
-  text-shadow: 0px 1px 0px #555555;
+  text-shadow: 2px 2px 5px #000000cc;
   margin: 0px;
   padding: 0px;
   max-width: 350px;
@@ -85,7 +85,7 @@ nav a:hover {
 .bannerhead h2 {
   color: #ffffff;
   font-size: 21px;
-  text-shadow: 0px 1px 0px #555555;
+  text-shadow: 2px 2px 5px #000000cc;
   margin: 0px;
   padding: 0px;
   max-width: 350px;
