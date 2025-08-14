@@ -290,7 +290,6 @@ footer .widgettitletext {
 }
 .footerdesc {
   color: #ffffff;
-  background-color: #ff0000;
   display: flex;
   font-size: 12px;
 }
@@ -374,6 +373,14 @@ footer .widgettitletext {
 }
  #geral aside {
   padding: 10px;
+ }
+ .footerdescum {
+  padding-right: 10px;
+  padding-top: 10px;
+}
+ .footerarea {
+  flex-direction: column;
+  padding: 20px;
  }
 }
 
