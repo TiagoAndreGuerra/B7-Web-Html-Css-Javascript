@@ -85,3 +85,9 @@ footer {
 .discos {
   text-align: center;
 }
+.galeria {
+  display: flex;
+}
+.discos {
+  margin: 10px;
+}
