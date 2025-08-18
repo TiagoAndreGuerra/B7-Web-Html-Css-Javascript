@@ -24,12 +24,22 @@ body {
 header {
   width: 100%;
   height: 120px;
-  background-color: darkgoldenrod;
+  background-color: #ffffff;
 }
 .title {
-  text-align: center;
   width: 100%;
-  height: 90px;
+  height: 90px;              
+  display: flex;             
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+.title img {
+  max-height: 100%;     
+  max-width: 100%;          
+  width: auto;               
+  object-fit: contain;       
+  display: block;
 }
 .menu {
   width: 100%;
