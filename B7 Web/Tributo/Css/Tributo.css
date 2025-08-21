@@ -85,6 +85,7 @@
     gap: 20px 20px; /* 20px entre colunas e linhas */
     height: auto;   /* Remova height fixa */
     padding-bottom: 20px;
+    border-bottom: 4px solid #000000;
 }
 .image1, .image2 {
     width: calc(50% - 30px); /* Duas por linha, considerando o gap */
