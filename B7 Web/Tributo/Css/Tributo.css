@@ -77,25 +77,38 @@
 }
 .gallery {
     width: 100%;
-    height: 1300px;
     display: flex;
-    flex-wrap: wrap;           
+    flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     background-color: #805e0b;
+    gap: 20px 20px; /* 20px entre colunas e linhas */
+    height: auto;   /* Remova height fixa */
+    padding-bottom: 20px;
 }
-.image1, .image2, .image3 {
-    width: 40%;
+.image1, .image2 {
+    width: calc(50% - 30px); /* Duas por linha, considerando o gap */
     height: 600px;
     background-size: cover;
     background-position: center;
     display: flex;
+    margin-top: 20px;
+}
+.image3 {
+    width: 50%;      
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    margin-top: 0;    /* Não precisa margin-top, o gap já faz o espaçamento */
 }
 .image1 {
-    background-image: url("../Assets/Armor01.webp");    
+    background-image: url("../Assets/Armor01.webp"); 
+    margin-left: 20px;
 }
 .image2 {
     background-image: url("../Assets/Armor02.webp");
+    margin-right: 20px;
 }
 .image3 {
     background-image: url("../Assets/Armor03.webp");
