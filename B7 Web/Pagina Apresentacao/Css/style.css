@@ -1,0 +1,87 @@
+/* Reset e estilos básicos */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', Arial, sans-serif;
+}
+
+body {
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+/* Cabeçalho */
+header {
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.header-divider {
+  height: 30px;
+  background-color: #000;
+  margin-top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-divider h1 {
+  color: #fff;
+  font-size: 1.2rem;
+  margin: 0;
+}
+
+.two-boxes {
+  display: flex;
+  gap: 0px;
+  margin: 0px 0;
+  height: 500px;
+}
+
+.box {
+  flex: 1;
+  background-color: #eee;
+  padding: 20px;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+.header-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.left-side {
+  display: flex;
+  align-items: center;
+}
+
+header h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin: 0;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 10px;
+  margin: 0;
+  padding: 0;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+nav a:hover {
+  color: #007bff;
+}
+.main-nav {
+  border-left: 20px solid transparent;
+}
