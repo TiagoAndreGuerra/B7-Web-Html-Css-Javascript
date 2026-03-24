@@ -43,8 +43,6 @@ header {
 .box {
   flex: 1;
   background-color: #eee;
-  padding: 20px;
-  border: 1px solid #ccc;
   text-align: center;
 }
 .header-content {
