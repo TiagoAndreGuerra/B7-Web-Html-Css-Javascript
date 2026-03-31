@@ -33,18 +33,6 @@ header {
   margin: 0;
 }
 
-.two-boxes {
-  display: flex;
-  gap: 0px;
-  margin: 0px 0;
-  height: 500px;
-}
-
-.box {
-  flex: 1;
-  background-color: #eee;
-  text-align: center;
-}
 .header-content {
   display: flex;
   align-items: center;
@@ -80,6 +68,377 @@ nav a {
 nav a:hover {
   color: #007bff;
 }
+
 .main-nav {
   border-left: 20px solid transparent;
+  margin-left: 20px;
+}
+
+/* Product Container */
+.product-container {
+  display: flex;
+  gap: 40px;
+  padding: 60px 40px;
+  background-color: #fff;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+/* Left Side - Product Images */
+.product-images {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.main-image {
+  position: relative;
+  background-color: #f9f9f9;
+  border: 1px solid #e0e0e0;
+  overflow: hidden;
+}
+
+.main-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.zoom-text {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 5px 10px;
+  font-size: 0.75rem;
+  color: #666;
+  border-radius: 2px;
+}
+
+/* Right Side - Product Details */
+.product-details {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.product-name {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #333;
+  margin: 0;
+  letter-spacing: 1px;
+}
+
+.product-subtitle {
+  font-size: 0.95rem;
+  color: #999;
+  margin: 0;
+  font-weight: 400;
+}
+
+.product-price {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 15px 0;
+  border-top: 1px solid #f0f0f0;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.price {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #333;
+}
+
+.made-in {
+  font-size: 0.8rem;
+  color: #666;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+}
+
+/* Size Selector */
+.size-selector {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.size-selector label {
+  font-size: 0.95rem;
+  font-weight: 500;
+  color: #333;
+}
+
+.size-selector select {
+  padding: 10px 15px;
+  border: 1px solid #333;
+  background-color: #fff;
+  font-size: 0.95rem;
+  cursor: pointer;
+  min-width: 150px;
+  color: #333;
+}
+
+.size-selector select:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.1);
+}
+
+/* Add to Cart Button */
+.add-to-cart {
+  background-color: #333;
+  color: #fff;
+  padding: 15px 30px;
+  border: none;
+  font-size: 0.95rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.add-to-cart:hover {
+  background-color: #555;
+}
+
+/* Social Icons */
+.social-icons {
+  display: flex;
+  gap: 10px;
+}
+
+.icon {
+  width: 40px;
+  height: 40px;
+  border: 1px solid #333;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: #333;
+  font-size: 1rem;
+  font-weight: 700;
+  transition: all 0.3s ease;
+}
+
+.icon:hover {
+  background-color: #333;
+  color: #fff;
+}
+
+/* Shipping & Returns Link */
+.shipping-link {
+  font-size: 0.85rem;
+  color: #333;
+  text-decoration: underline;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  transition: color 0.3s ease;
+}
+
+.shipping-link:hover {
+  color: #666;
+}
+
+/* Newsletter Section */
+
+
+.newsletter-section h3 {
+  font-size: 1rem;
+  font-weight: 700;
+  color: #333;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+.newsletter-section p {
+  margin: 5px 0;
+  color: #666;
+  font-size: 0.9rem;
+  text-align: center;
+}
+
+.newsletter-tagline {
+  color: #999 !important;
+  font-size: 0.85rem !important;
+}
+
+.newsletter-form {
+  display: flex;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+.newsletter-form input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ddd;
+  font-size: 0.9rem;
+}
+
+.newsletter-form button {
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+.newsletter-form button:hover {
+  background-color: #555;
+}
+
+/* Featured Images Section */
+.featured-images {
+  display: flex;
+  gap: 20px;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+.featured-card {
+  flex: 1;
+  aspect-ratio: 1;
+  overflow: hidden;
+  background-color: #f9f9f9;
+  border: 1px solid #e0e0e0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.featured-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.featured-card:hover img {
+  transform: scale(1.05);
+}
+
+/* Bottom Section Container */
+.bottom-section {
+  display: flex;
+  max-width: 1400px;
+  margin: 0 auto;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  background-color: #fff;
+}
+
+/* Newsletter Section */
+.newsletter-section {
+  flex: 1;
+  width: 50%;
+  background-color: #f9f9f9;
+  padding: 25px 40px;
+  border-right: 1px solid #e0e0e0;
+}
+
+/* Contact Info */
+.contact-info {
+  flex: 1;
+  width: 50%;
+  padding: 25px 40px;
+}
+
+.contact-info h4 {
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.info-item {
+  font-size: 0.9rem;
+  color: #666;
+  margin: 8px 0;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.info-item:hover {
+  color: #333;
+}
+
+.phone-number {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: #333;
+  margin-top: 15px !important;
+}
+
+.hours {
+  font-size: 0.85rem;
+  color: #999;
+  margin-top: 5px !important;
+}
+
+/* Responsivo */
+@media (max-width: 768px) {
+  .product-container {
+    flex-direction: column;
+    gap: 30px;
+    padding: 30px 20px;
+  }
+
+  .product-name {
+    font-size: 1.8rem;
+  }
+
+  .price {
+    font-size: 1.4rem;
+  }
+
+  .product-price {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .size-selector {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .size-selector select {
+    width: 100%;
+  }
+
+  .add-to-cart {
+    width: 100%;
+  }
+
+  .newsletter-form {
+    flex-direction: column;
+  }
+
+  .newsletter-form input,
+  .newsletter-form button {
+    width: 100%;
+  }
+
+  .bottom-section {
+    flex-direction: column;
+  }
+
+  .newsletter-section,
+  .contact-info {
+    width: 100%;
+    border-right: none;
+    border-bottom: 1px solid #e0e0e0;
+  }
+
+  .contact-info {
+    border-bottom: none;
+  }
 }
